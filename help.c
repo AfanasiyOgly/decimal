@@ -79,7 +79,7 @@ int add_without_scale(s21_decimal value_1, s21_decimal value_2, s21_decimal *res
     int is_overflow = 0;
 
     // Находим меньшее LOW число
-    unsigned int lowest_number = value_1.bits[LOW];
+    int lowest_number = value_1.bits[LOW];
 
     if (value_1.bits[LOW] > value_2.bits[LOW]) {
         lowest_number = value_2.bits[LOW];

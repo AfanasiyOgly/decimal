@@ -1,4 +1,4 @@
-#include "../../s21_test.h"
+#include "s21_test.h"
 
 START_TEST(invalid_dec_s21_add_1) {
   // ссылка на результат - NULL

@@ -1,5 +1,6 @@
 #include "s21_test.h"
 #include <locale.h>
+#include <check.h>
 
 int main(void) {
     setlocale(LC_ALL, "");
